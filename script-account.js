@@ -53,7 +53,7 @@ loginBtn.addEventListener("click", () => {
 
     if (username === storedUsername && password === storedPassword) {
         alert("Login successful!");
-        window.location.href = "index.html"; // Redirect to another page
+        window.location.href = "home.html"; // Redirect to another page
     } else {
         alert("Invalid username or password.");
     }
