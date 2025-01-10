@@ -1,6 +1,11 @@
 /* Basic styles */
+@font-face{
+    font-family: myfont;
+    src: url(font/Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+  }
+
 *{
-    font-family: "Cairo", sans-serif;
+    font-family: myfont;
 }
 
 body {
